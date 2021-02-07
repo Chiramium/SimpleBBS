@@ -1944,6 +1944,21 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
 
 /***/ }),
@@ -37745,6 +37760,50 @@ var staticRenderFns = [
             _c("td", { attrs: { colspan: "2" } }, [
               _vm._v("shenmeshenmeshenmeshenme")
             ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row justify-content-center" }, [
+        _c("div", { staticClass: "col-sm-6" }, [
+          _c("form", [
+            _c("div", { staticClass: "form-group row" }, [
+              _c(
+                "label",
+                {
+                  staticClass: "col-sm-3 col-form-label",
+                  attrs: { for: "name" }
+                },
+                [_vm._v("Name")]
+              ),
+              _vm._v(" "),
+              _c("input", {
+                staticClass: "col-sm-9 form-control",
+                attrs: { type: "text", id: "name" }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "form-group row" }, [
+              _c(
+                "label",
+                {
+                  staticClass: "col-sm-3 col-form-label",
+                  attrs: { for: "content" }
+                },
+                [_vm._v("Content")]
+              ),
+              _vm._v(" "),
+              _c("input", {
+                staticClass: "col-sm-9 form-control",
+                attrs: { type: "text", id: "content" }
+              })
+            ]),
+            _vm._v(" "),
+            _c(
+              "button",
+              { staticClass: "btn btn-primary", attrs: { type: "submit" } },
+              [_vm._v("Submit")]
+            )
           ])
         ])
       ])

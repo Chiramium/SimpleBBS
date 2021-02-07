@@ -34,6 +34,21 @@
         </tr>
       </tbody>
     </table>
+    <div class="row justify-content-center">
+      <div class="col-sm-6">
+        <form>
+          <div class="form-group row">
+            <label for="name" class="col-sm-3 col-form-label">Name</label>
+            <input type="text" class="col-sm-9 form-control" id="name">
+          </div>
+          <div class="form-group row">
+            <label for="content" class="col-sm-3 col-form-label">Content</label>
+            <input type="text" class="col-sm-9 form-control" id="content">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
   </div>
 </template>
 
